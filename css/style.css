@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* Utilities */
+html {
+    scroll-behavior: smooth;
+  }
+
+/* NavBar */
+.navigation {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 10;
+}
+
+.navigation li {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    background: #fff;
+}
+
+.navigation a {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+}
+
+
+/* Section Top */
+.section-top {
+    
+    background-color: red;
+    height: 100vh;
+}
+
+.section-top .shoes1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Section center */
+.section-center {
+    position: relative;
+    background-color: green;
+    height: 100vh;
+}
+
+.section-center .shoes2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Section Footer */
+.section-foot {
+    position: relative;
+    background-color: yellow;
+    height: 100vh;
+}
+
+.section-foot .shoes3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Testo */
+.testo {
+    font-size: 40px;
+    width: 90%;
+    text-align: center;
+    color: yellow;
+}
+
+.testo2 {
+    font-size: 40px;
+    width: 90%;
+    text-align: center;
+    color: green;
+}
